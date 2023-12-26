@@ -445,14 +445,12 @@ section{
     
     .navbar
     {
-       height: 8rem;
-       width: 100vw;
+       
        background-color: var(--white);
        position: absolute;
    
-       right: 0;
-       top:8rem;
-       transform: translateY(-100%);
+      
+       top:-100%;
        
        transition: all 0.1s linear;
 
@@ -465,8 +463,8 @@ section{
           display: flex;
           
           
-          
-          justify-content: space-evenly;
+          gap:0rem;
+          justify-content: center;
           
       }
     .toggle-btn
@@ -476,8 +474,12 @@ section{
     }
     .active .navbar
     {
-        
+        height: 8rem;
+        width: 100vw;   
+        position: absolute;
         transform: translateY(0);
+        top:8rem;
+        left:0;
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
