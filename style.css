@@ -32,6 +32,11 @@ html {
   color: #ffffff;
   opacity: 1 !important;
 }
+#logo{
+  display: block;
+  height: 100px;
+  width: 100px;
+}
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
   color: #ffffff;
