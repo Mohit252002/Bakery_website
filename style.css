@@ -23,7 +23,7 @@ html {
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-  font-size: 14px;
+  font-size: 20px;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   padding-left: 20px;
@@ -31,11 +31,6 @@ html {
   font-weight: 400;
   color: #ffffff;
   opacity: 1 !important;
-}
-#logo{
-  display: block;
-  height: 100px;
-  width: 100px;
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
@@ -50,6 +45,11 @@ html {
 
 .ftco-navbar-light .navbar-nav > .nav-item.active > a {
   color: #c8a97e;
+}
+#logo{
+  display: block;
+  height: 100px;
+  width: 100px;
 }
 
 /* ***************this below written code will work when our page content goes more than screen size or when it is scrolled */
@@ -479,7 +479,7 @@ html {
 
 .menus .text .one-forth {
   width: 80px;
-  text-align: right;
+  /* text-align: right; */
 }
 
 .menus .text .one-forth .price {
